@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>enterBudget.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #808080;}
+.s3 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+enterBudget.java</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">java.util.Scanner</span><span class="s0">;</span>
+<span class="s0">public class </span><span class="s1">enterBudget {</span>
+    <span class="s1">enterBudget(){</span>
+        <span class="s2">//food, rent, transportation, misc expenses</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;This app will help you budget your expenses! What is your monthly income: &quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">Scanner income = </span><span class="s0">new </span><span class="s1">Scanner(System.in)</span><span class="s0">;</span>
+        <span class="s1">String myIncome = income.next()</span><span class="s0">;</span>
+        <span class="s0">int </span><span class="s1">myIncome2 =Integer.parseInt(myIncome)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;Please enter what percentage of your income will go towards the following budgets: (ex.0.30 = 30%)&quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;Enter what percentage of your income will go towards food: &quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">Scanner foodBudget = </span><span class="s0">new </span><span class="s1">Scanner(System.in)</span><span class="s0">;</span>
+        <span class="s1">String foodB = income.next()</span><span class="s0">;</span>
+        <span class="s0">double </span><span class="s1">foodB2 =Double.parseDouble(foodB)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;Enter what percentage of your income will go towards rent: &quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">Scanner rentBudget = </span><span class="s0">new </span><span class="s1">Scanner(System.in)</span><span class="s0">;</span>
+        <span class="s1">String rentB = income.next()</span><span class="s0">;</span>
+        <span class="s0">double </span><span class="s1">rentB2 =Double.parseDouble(rentB)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;Enter what percentage of your income will go towards transportation: &quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">Scanner transportationBudget = </span><span class="s0">new </span><span class="s1">Scanner(System.in)</span><span class="s0">;</span>
+        <span class="s1">String transportationB = income.next()</span><span class="s0">;</span>
+        <span class="s0">double </span><span class="s1">transportationB2 =Double.parseDouble(transportationB)</span><span class="s0">;</span>
+        <span class="s1">System.out.println(</span><span class="s3">&quot;Enter what percentage of your income will go towards misc. expenses: &quot;</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s1">Scanner miscBudget = </span><span class="s0">new </span><span class="s1">Scanner(System.in)</span><span class="s0">;</span>
+        <span class="s1">String miscB = income.next()</span><span class="s0">;</span>
+        <span class="s0">double </span><span class="s1">miscB2 =Double.parseDouble(miscB)</span><span class="s0">;</span>
+
+    <span class="s1">}</span>
+
+<span class="s1">}</span>
+</pre>
+</body>
+</html>
