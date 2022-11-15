@@ -14,8 +14,7 @@ public class Main {
         int ranNum=num.nextInt(99);
         String userName= firstName.toUpperCase() + lastName.toUpperCase().substring(lastName.length() -1 )+ranNum;
         System.out.println("Your username is: " +userName);
-        System.out.println("Hi " + firstName + ", let's start budgeting!");
-    }
+        System.out.println("Hi " + firstName + ", let's start budgeting!");}
     public static void main(String[] args) {
         introPage();
         new percentageBreakdown();
