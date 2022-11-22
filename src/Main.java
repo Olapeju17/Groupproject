@@ -2,7 +2,6 @@ import java.util.Scanner;
 import java.util.Random;
 public class Main {
     static void introPage() {
-        //
         System.out.println("Hello! Welcome to the Budgeting app! Let's get started with a username!");
         System.out.println("Please enter your first name:");
         Scanner nameF = new Scanner(System.in);
@@ -17,7 +16,7 @@ public class Main {
         System.out.println("Hi " + firstName + ", let's start budgeting!");}
     public static void main(String[] args) {
         introPage();
-        new percentageBreakdown();
-        new enterBudget();
+        percentageBreakdown myPbd =new percentageBreakdown();
+
     }
 }
