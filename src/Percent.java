@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Percent {
-    static void PercentageM(double f, double s, double t, double m, double total) {
+    static void PercentageM(double f, double s, double t, double m) {
         System.out.println("This app will help you budget your expenses! What is your monthly income: ");
         Scanner income = new Scanner(System.in);
         String myIncome = income.next();

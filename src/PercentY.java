@@ -28,7 +28,6 @@ public class PercentY {
             m = misc.nextDouble();
         }
         System.out.println("Thank you! You've budgeted 100%.");
-        total = (double) (f + s + t + m);
         //why isn't the new f,s,t,m values saving
 
     }
