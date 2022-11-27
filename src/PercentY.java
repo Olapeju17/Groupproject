@@ -29,7 +29,7 @@ public class PercentY {
         }
         System.out.println("Thank you! You've budgeted 100%.");
         //why isn't the new f,s,t,m values saving
-
+        Percent. PercentageM(f,s,t,m);
     }
 }
 

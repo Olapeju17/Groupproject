@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c211a5d-89fb-4274-881c-10ae7185821b" name="Changes" comment="Olapeju, 11/15/no changes">
-      <change afterPath="$PROJECT_DIR$/src/PercentY.java" afterDir="false" />
+    <list default="true" id="3c211a5d-89fb-4274-881c-10ae7185821b" name="Changes" comment="Olapeju, 11/21/changes+one part needs to be fixed, working on it">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Percent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Percent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enterBudget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PercentY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercentY.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/percentageBreakdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/percentageBreakdown.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668515071746</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Olapeju, 11/21/changes+one part needs to be fixed, working on it">
+      <created>1669085042898</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669085042898</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Olapeju, 11/21/changes+one part needs to be fixed, working on it">
+      <created>1669085229286</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669085229286</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,7 +133,8 @@
     <MESSAGE value="new 11/14-Olapeju" />
     <MESSAGE value="new 11/15-Olapeju- no changea" />
     <MESSAGE value="Olapeju, 11/15/no changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Olapeju, 11/15/no changes" />
+    <MESSAGE value="Olapeju, 11/21/changes+one part needs to be fixed, working on it" />
+    <option name="LAST_COMMIT_MESSAGE" value="Olapeju, 11/21/changes+one part needs to be fixed, working on it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

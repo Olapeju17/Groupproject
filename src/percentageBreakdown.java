@@ -16,9 +16,6 @@ import java.util.Scanner;
             double m = misc.nextDouble();
             double total = 0.9;
             PercentY.PercentageMath(f,s,t,m,total);
-            Percent. PercentageM(f,s,t,m);
-
-
         }
     }
 
