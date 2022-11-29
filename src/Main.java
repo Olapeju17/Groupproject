@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 public class Main {
     static void introPage() {
-        System.out.println("Hello! Welcome to the Budgeting app! Let's get started with a username!");
+        System.out.println("Hello! Welcome to the MoneyUp! Let's get started with a username!");
         System.out.println("Please enter your first name:");
         Scanner nameF = new Scanner(System.in);
         String firstName = nameF.next();
@@ -17,6 +17,8 @@ public class Main {
     public static void main(String[] args) {
         introPage();
         percentageBreakdown myPbd =new percentageBreakdown();
+        MultiArray Multi =new MultiArray();
+        Multi.ArrayTable();
 
     }
 }
