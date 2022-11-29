@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class PercentY {
-    static void PercentageMath(double f, double s, double t, double m, double total) {
+    static void PercentageMath(double f, double s, double t, double sv, double total) {
         Scanner food;
-        Scanner misc;
         Scanner shopping;
         Scanner transportation;
+        Scanner saving;
         while (total != 1.0) {
-            total = (double) (f + s + t + m);
+            total = (double) (f + s + t + sv);
             if (total > 1.0) {
                 System.out.println("You've entered: " + (total * 100) + "%. That's too high! Please re-enter your budget! * Must equal 100% *");
             } else if (total < 1.0) {
@@ -24,11 +24,11 @@ public class PercentY {
             transportation = new Scanner(System.in);
             t = transportation.nextDouble();
             System.out.println("Enter your misc budget percentage: ");
-            misc = new Scanner(System.in);
-            m = misc.nextDouble();
+            saving = new Scanner(System.in);
+            sv = saving.nextDouble();
         }
         System.out.println("Thank you! You've budgeted 100%.");
-        Percent. PercentageM(f,s,t,m);
+        Percent. PercentageM(f,s,t,sv);
     }
 }
 

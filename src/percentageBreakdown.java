@@ -3,7 +3,7 @@ import java.util.Scanner;
         static  double f;
         static double s;
         static double t;
-        static double m;
+        static double sv;
         static double total;
 
         percentageBreakdown() {
@@ -17,11 +17,11 @@ import java.util.Scanner;
             System.out.println("Enter your transportation budget percentage: ");
             Scanner transportation = new Scanner(System.in);
             t = transportation.nextDouble();
-            System.out.println("Enter your misc budget percentage: ");
-            Scanner misc = new Scanner(System.in);
-            m = misc.nextDouble();
+            System.out.println("Enter your savings budget percentage: ");
+            Scanner saving = new Scanner(System.in);
+            sv = saving.nextDouble();
             total = 0.9;
-            PercentY.PercentageMath(f,s,t,m,total);
+            PercentY.PercentageMath(f,s,t,sv,total);
         }
     }
 
