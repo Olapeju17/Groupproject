@@ -1,25 +1,30 @@
+import java.util.Random;
 import java.util.Scanner;
     public class percentageBreakdown {
-        static  double f;
-        static double s;
-        static double t;
-        static double sv;
-        static double total;
-
+        double f; double s; double t; double sv; double total;
+        static void introPage() {
+            System.out.println("Hello! Welcome to the MoneyUP! Let's get started with a username!");
+            System.out.println("Please enter your first name:");
+            Scanner input = new Scanner(System.in);
+            String firstName = input.next();
+            System.out.println("Please enter your last name:");
+            String lastName = input.next();
+            Random num= new Random();
+            int ranNum=num.nextInt(99);
+            String userName= firstName.toUpperCase() + lastName.toUpperCase().substring(lastName.length() -1 )+ranNum;
+            System.out.println("Your username is: " +userName);
+            System.out.println("Hi " + firstName + ", let's start budgeting!");}
         percentageBreakdown() {
             System.out.println("Please enter what percentage of your income will go towards the following budgets: (ex. .30 = 30%)" + '\n' + "* Budget must equal 100% *");
             System.out.println('\n' + "Enter your food budget percentage: ");
-            Scanner food = new Scanner(System.in);
-            f = food.nextDouble();
+            Scanner input = new Scanner(System.in);
+            f = input.nextDouble();
             System.out.println("Enter your shopping budget percentage: ");
-            Scanner shopping = new Scanner(System.in);
-            s = shopping.nextDouble();
+            s = input.nextDouble();
             System.out.println("Enter your transportation budget percentage: ");
-            Scanner transportation = new Scanner(System.in);
-            t = transportation.nextDouble();
+            t = input.nextDouble();
             System.out.println("Enter your savings budget percentage: ");
-            Scanner saving = new Scanner(System.in);
-            sv = saving.nextDouble();
+            sv = input.nextDouble();
             total = 0.9;
             PercentY.PercentageMath(f,s,t,sv,total);
         }

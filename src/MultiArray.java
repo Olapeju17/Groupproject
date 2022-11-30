@@ -1,27 +1,19 @@
 import java.util.Scanner;
 public class MultiArray {
-    static double SpentFood2;
-    static double SpentTrans2;
-    static double SpentShop2;
-    static  double SpentSaving2;
-    static double leftOverFood;
-    static double leftOverTrans;
-    static double leftOverShop;
-    static double leftOverSaving;
-
+    public static double totalLeftover;
+    public static double SpentSaving2;
+    double SpentFood2; double SpentTrans2; double SpentShop2;
+    double leftOverFood;double leftOverTrans; double leftOverShop; double leftOverSaving;
     MultiArray(){
         System.out.println("Please input how much you spent in food this month: ");
-        Scanner CurrentFood = new Scanner(System.in);
-        String Food5 = CurrentFood.next();
-        System.out.println("Please input how much you spent in transportation this month: ");
-        Scanner CurrentTrans = new Scanner(System.in);
-        String Trans5 = CurrentTrans.next();
+        Scanner input = new Scanner(System.in);
+        String Food5 = input.next();
         System.out.println("Please input how much you spent in shopping this month:");
-        Scanner CurrentShop = new Scanner(System.in);
-        String Shop5 = CurrentShop.next();
-        System.out.println("Please input how much you spent in savings this month:");
-        Scanner CurrentSaving = new Scanner(System.in);
-        String Saving5 = CurrentSaving.next();
+        String Shop5 = input.next();
+        System.out.println("Please input how much you spent in transportation this month: ");
+        String Trans5 = input.next();
+        System.out.println("Please input how much money you've put towards savings this month:");
+        String Saving5 = input.next();
         SpentFood2 = Double.parseDouble(String.valueOf(Food5));
         SpentTrans2 = Double.parseDouble(String.valueOf(Trans5));
         SpentShop2 = Double.parseDouble(String.valueOf(Shop5));
@@ -30,6 +22,7 @@ public class MultiArray {
         leftOverTrans = (Percent.transportationA-SpentTrans2);
         leftOverShop = (Percent.shoppingA-SpentShop2);
         leftOverSaving = (Percent.savingA-SpentSaving2);
+        totalLeftover =(leftOverFood + leftOverSaving+leftOverTrans+leftOverShop);
         }
     void ArrayTable(){
         String[][] table = new String[5][4];

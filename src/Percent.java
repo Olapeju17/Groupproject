@@ -7,11 +7,11 @@ public class Percent {
       static double savingA;
     static void PercentageM(double f, double s, double t, double sv) {
         System.out.println("This app will help you budget your expenses! What is your monthly income: ");
-        Scanner income = new Scanner(System.in);
-        String myIncome = income.next();
+        Scanner input = new Scanner(System.in);
+        String myIncome = input.next();
         double myIncome2 = Double.parseDouble(myIncome);
         System.out.println("How much money do you pay in rent each month? (If you don't pay rent, enter 0)");
-        String myRent = income.next();
+        String myRent = input.next();
         double myRent2 = Double.parseDouble(myRent);
         NewIncome = (myIncome2 - myRent2);
         foodA = (NewIncome * f);
