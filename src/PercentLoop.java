@@ -1,12 +1,13 @@
 import java.util.Scanner;
+
 public class PercentLoop {
     static void PercentageMath(double f, double s, double t, double sv, double total) {
         while (total != 1.0) {
             total = (double) (f + s + t + sv);
             if (total > 1.0) {
-                System.out.println("You've entered: " + (total * 100) + "%. That's too high! Please re-enter your budget! * Must equal 100% *");
+                System.out.println("You've entered: " + ((total)*100) + "%. That's too high! Please re-enter your budget! * Must equal 100% *");
             } else if (total < 1.0) {
-                System.out.println("You've entered: " + (total * 100) + "%. That's too low! Please re-enter your budget! * Must equal 100% *");
+                System.out.println("You've entered: " + ((total)*100) + "%. That's too low! Please re-enter your budget! * Must equal 100% *");
             } else {
                 break;
             }

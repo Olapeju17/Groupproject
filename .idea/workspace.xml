@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c211a5d-89fb-4274-881c-10ae7185821b" name="Changes" comment="Olapeju, 11/21/Updated w/ switch statements and conditional operator">
+    <list default="true" id="3c211a5d-89fb-4274-881c-10ae7185821b" name="Changes" comment="Olapeju, 11/21/Updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MonthlyBudget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MonthlyBudget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MultiArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Percent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MonthlyBudget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PercentY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercentLoop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/percentageBreakdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/percentageBreakdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PercentLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PercentLoop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669849320327</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Olapeju, 11/21/Updated">
+      <created>1669864279864</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669864279864</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -176,7 +181,8 @@
     <MESSAGE value="Olapeju, 11/21/fixed + array will be worked on" />
     <MESSAGE value="Olapeju, 11/21/Updated with working array" />
     <MESSAGE value="Olapeju, 11/21/Updated w/ switch statements and conditional operator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Olapeju, 11/21/Updated w/ switch statements and conditional operator" />
+    <MESSAGE value="Olapeju, 11/21/Updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Olapeju, 11/21/Updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
