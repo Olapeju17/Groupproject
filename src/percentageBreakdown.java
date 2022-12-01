@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
     public class percentageBreakdown {
-        double f; double s; double t; double sv; double total;
+        static double f; static double s; static double t; static double sv; static double total;
         static void introPage() {
             System.out.println("Hello! Welcome to the MoneyUP! Let's get started with a username!");
             System.out.println("Please enter your first name:");
@@ -14,7 +14,7 @@ import java.util.Scanner;
             String userName= firstName.toUpperCase() + lastName.toUpperCase().substring(lastName.length() -1 )+ranNum;
             System.out.println("Your username is: " +userName);
             System.out.println("Hi " + firstName + ", let's start budgeting!");}
-        percentageBreakdown() {
+        static void percentageB() {
             System.out.println("Please enter what percentage of your income will go towards the following budgets: (ex. .30 = 30%)" + '\n' + "* Budget must equal 100% *");
             System.out.println('\n' + "Enter your food budget percentage: ");
             Scanner input = new Scanner(System.in);
@@ -26,7 +26,7 @@ import java.util.Scanner;
             System.out.println("Enter your savings budget percentage: ");
             sv = input.nextDouble();
             total = 0.9;
-            PercentY.PercentageMath(f,s,t,sv,total);
+            PercentLoop.PercentageMath(f,s,t,sv,total);
         }
     }
 

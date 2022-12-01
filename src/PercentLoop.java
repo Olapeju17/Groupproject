@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PercentY {
+public class PercentLoop {
     static void PercentageMath(double f, double s, double t, double sv, double total) {
         while (total != 1.0) {
             total = (double) (f + s + t + sv);
@@ -24,7 +24,7 @@ public class PercentY {
             sv = input.nextDouble();
         }
         System.out.println("Thank you! You've budgeted 100%.");
-        Percent. PercentageM(f,s,t,sv);
+        MonthlyBudget. BudgetPercentages(f,s,t,sv);
     }
 }
 

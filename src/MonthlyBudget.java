@@ -1,11 +1,12 @@
 import java.util.Scanner;
-public class Percent {
+public class MonthlyBudget {
       static double NewIncome;
       static double foodA;
       static double shoppingA;
       static double transportationA;
       static double savingA;
-    static void PercentageM(double f, double s, double t, double sv) {
+
+    public static void BudgetPercentages(double f, double s, double t, double sv) {
         System.out.println("This app will help you budget your expenses! What is your monthly income: ");
         Scanner input = new Scanner(System.in);
         String myIncome = input.next();
@@ -27,16 +28,7 @@ public class Percent {
         System.out.println("Your monthly transportation budget is: $" + transportationA);
         System.out.println("Your monthly savings expenses budget is: $" + savingA + '\n');
     }
-    public static double foodA(){
-         return foodA;
-    }
-    public static double shoppingA(){
-        return shoppingA;
-    }
-    public static double transportationA(){
-        return transportationA;
-    }
-    public static double savingA(){
+    public static double savingA() {
         return savingA;
     }
 }
